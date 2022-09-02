@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/71e9d1690e.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/starbucksbill.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.htm" class="link">Home</a>
+        <a href="index.htm#2" class="link">Menu</a>
+        <a href="dummy.htm" class="link">Dummy Bill</a>
+        <a href="index.htm#3" class="link">About Us</a>
+    </div><br><br><br>
+    <div class="back">
+        <a href="dummy.htm">
+            <i class="fa-solid fa-arrow-left-long"> Back</i>
+        </a>
+    </div>
+    <form action="php/action.php" class="form1" method="post">
+        <img src="images/company_logo/mcdonald.jpeg" alt="starbucks" width="100%">
+        Name: <input type="text" name="uname"><br>
+        Email: <input type="email" name="email_id"><br>
+        Choose Date: <input type="date" name="date"><br>
+        Choose Time: <input type="time" name="time"><br>
+        <input type="submit" value="Generate Bill"><br>
+    </form>
+</body>
+</html>

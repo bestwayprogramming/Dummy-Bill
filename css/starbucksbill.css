@@ -1,0 +1,32 @@
+.form1{
+    text-align: center;
+    transform: translate(130%,20%);
+    border: 5px solid black;
+    width:20%;
+    padding:50px;
+    background-color: rgba(88, 192, 240, 0.5);
+    box-shadow: 5px 5px 200px rgb(248, 162, 3);
+    border-radius: 25px;
+    margin-top: -30px;
+}
+
+.form1 img{
+    border-radius: 50%;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.back{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    transform: translateX(03%);
+}
+
+input[type='submit']{
+    width:150px;
+    height: 100px;
+    font-size: larger;
+    margin-top: 10px;
+}
