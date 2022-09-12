@@ -1,0 +1,15 @@
+.section p{
+    counter-increment: sec;
+}
+
+.section p::before{
+    content: "Section " counter(sec) ": ";
+}
+
+.section2 p{
+    counter-increment: sec;
+}
+
+.section2 p::before{
+    content: "Section " counter(sec) ": ";
+}

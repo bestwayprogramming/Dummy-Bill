@@ -1,0 +1,53 @@
+.starbucks{
+    width: 550px;
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    margin-bottom: 20px;
+} 
+
+body{
+    margin:0px;
+}
+
+/* img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    /* transform: translate(50%,50%); 
+} */
+
+table{
+    width:550px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+td p{
+    font-size: 15px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.rows{
+    padding-left:10px;
+}
+
+.row{
+    padding-right: 15px;
+}
+/* td{
+    border: 1px solid black;
+} */
+
+.part{
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-right: 5px;
+}
